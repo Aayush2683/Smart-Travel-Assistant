@@ -4,4 +4,4 @@
 The app combines two ML pipelines:
 
 1. **Price-Prediction Engine** – Gradient-boosted trees trained on historic domestic-route data, with a rule-based fuel-proxy adjustment.  
-2. **Travel-Document RAG** – Retrieval-Augmented Generation that embeds airline PDFs (baggage rules, fees, dangerous goods, etc.) into a FAISS vector DB and lets GPT answer questions with page-level citations.
+2. **Travel-Document RAG** – Retrieval-Augmented Generation that embeds airline PDFs (baggage rules, fees, dangerous goods, etc.) into a FAISS vector DB and lets Llama3 answer questions with page-level citations.
