@@ -1,0 +1,14 @@
+{
+  "Airline": "Jet Airways",
+  "Source": "Delhi",
+  "Destination": "Cochin",
+  "Additional_Info": "No info",
+  "dep_hour": 11,
+  "arr_hour": 14,
+  "duration_mins": 520.0,
+  "stops": 1,
+  "journey_day": 15,
+  "journey_month": 6,
+  "journey_dow": 2,
+  "route_len": 3
+}

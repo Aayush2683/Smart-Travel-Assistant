@@ -1,0 +1,15 @@
+{
+  "r2_val": 0.9190693041925031,
+  "mae_val": 674.3668608176803,
+  "best_params": {
+    "n_estimators": 1430,
+    "learning_rate": 0.05249726204105458,
+    "max_depth": 7,
+    "subsample": 0.9635178567146764,
+    "colsample_bytree": 0.6464568339269249,
+    "min_child_weight": 2,
+    "gamma": 3.5958136431836976,
+    "reg_lambda": 5.845374141273329
+  },
+  "trained": "2025-07-10T23:41:34.079476"
+}
