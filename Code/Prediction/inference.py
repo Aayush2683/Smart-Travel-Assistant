@@ -24,7 +24,7 @@ enc  = PIPE.named_steps["prep"].named_transformers_["cat"]
 CATS = {n: cats.tolist() for n, cats in zip(
         ["Airline","Source","Destination","Additional_Info"], enc.categories_)}
 
-if DEFAULTS_JS.exists():
+if DEFAULTS_JS.exists():                        #Defaults being set so that even if a user forgets to pass some information during inference the model still gets all the values needed
     DEFAULTS = json.load(open(DEFAULTS_JS))
 else:
     feat = pd.read_pickle(DATA_DIR/"train_features.pkl")
