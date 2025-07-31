@@ -1,0 +1,11 @@
+streamlit==1.35.0
+thefuzz==0.22.1
+python-Levenshtein>=0.20
+pandas
+numpy
+langchain
+faiss-cpu
+llama-cpp-python==0.2.74
+pypdf
+tiktoken
+openai
